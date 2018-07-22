@@ -1,3 +1,4 @@
+apt update
 apt-get --assume-yes install apache2
 cd /etc/apache2
 a2enmod ssl proxy proxy_http proxy_connect
