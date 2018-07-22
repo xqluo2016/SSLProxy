@@ -30,6 +30,7 @@ sed -i '8i</Proxy>' /etc/apache2/sites-available/default-ssl.conf
 
 sed -i 's/Listen 80/#Listen 80/g' /etc/apache2/ports.conf
 
+echo "" >/var/www/html/index.html
 
 a2ensite default-ssl.conf 
 
